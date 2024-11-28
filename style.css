@@ -1,0 +1,94 @@
+:root {
+    --bg-color: #1b1b1f;
+    --bg-color-1: #2A2A2B;
+    --bg-color-2: #373739;
+    --bg-color-3: #F6F6F6;
+    --bg-color-4: rgba(200, 200, 200);
+    --text-color-1: rgba(255, 255, 255, 90%);
+    --text-color-2: rgba(255, 255, 255, 80%);
+    --text-color-3: rgba(255, 255, 255, 65%);
+    --border-color-1: #484849;
+    --border-color-2: #5f5f60;
+    --text-link: #3c7eff;
+}
+
+main,
+aside,
+section {
+    background-color: var(--bg-color) !important;
+}
+
+aside {
+    border-color: var(--border-color-1) !important;
+}
+
+aside p {
+    color: var(--text-color-1) !important;
+}
+
+aside a {
+    color: var(--text-color-2) !important;
+}
+
+ul,
+li {
+    color: var(--text-color-2);
+}
+
+ul li .active a {
+    color: var(--text-link) !important;
+}
+
+#keyword {
+    background-color: var(--bg-color-3) !important;
+}
+
+.content {
+    max-width: unset !important;
+}
+
+.sidebar-toggle {
+    background-color: var(--bg-color-2) !important;
+    opacity: 0.9 !important;
+}
+
+.markdown-section h1 a[data-id],
+.markdown-section h2 a[data-id],
+.markdown-section h3 a[data-id],
+.markdown-section h4 a[data-id],
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4 {
+    color: var(--text-color-1) !important;
+}
+
+.markdown-section p strong,
+.markdown-section h4 {
+    color: var(--text-color-3) !important;
+}
+
+.markdown-section a {
+    color: var(--text-link) !important;
+}
+
+.markdown-section p code,
+.markdown-section ul li code {
+    background-color: var(--bg-color-1) !important;
+    color: var(--text-color-1) !important;
+    border-color: var(--border-color-2) !important;
+}
+
+.markdown-section pre code {
+    background-color: var(--bg-color-4) !important;
+    color: var(--text-color-1) !important;
+}
+
+.markdown-section blockquote {
+    background-color: var(--bg-color-1) !important;
+    color: var(--text-color-1) !important;
+}
+
+.markdown-section p {
+    color: var(--text-color-2) !important;
+}
